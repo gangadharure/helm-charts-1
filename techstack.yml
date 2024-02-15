@@ -1,0 +1,52 @@
+repo_name: gangadharure/helm-charts-1
+report_id: de186fded990d4062e9ccc813f307f8b
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T15:14:52+00:00'
+requested_by: iamabhishek-dubey
+provider: github
+branch: main
+detected_tools_count: 4
+tools:
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/gangadharure/helm-charts-1
+  detection_source: Repo Metadata
+- name: Smarty
+  description: Template engine for PHP
+  website_url: http://www.smarty.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/3693/smarty.png
+  detection_source_url: https://github.com/gangadharure/helm-charts-1
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/gangadharure/helm-charts-1
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/gangadharure/helm-charts-1/blob/main/.github/workflows/lint-test.yaml
+  detection_source: ".github/workflows/lint-test.yaml"
+  last_updated_by: iamabhishek-dubey
+  last_updated_on: 2021-05-02 18:05:59.000000000 Z
